@@ -4,6 +4,8 @@
 
 Welcome to **Honey Run**! This is a simple 2D web-based game where you control a bee to collect honey while avoiding obstacles. The goal is to collect 10 honey drops to complete the day's Honey Run. Be careful not to fly off the screen or hit any obstacles!
 
+https://slimmil.github.io/CCL1_cc241020/
+
 ## Features
 - Control a bee character using the **Spacebar** to jump.
 - Collect honey drops that appear randomly while dodging obstacles.
