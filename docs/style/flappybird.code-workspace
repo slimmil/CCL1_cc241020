@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../flappybird"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "a.Honey_Run"
+	}
+}
