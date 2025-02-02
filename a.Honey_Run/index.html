@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Honey Run</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>   
+
+    <canvas id="canvas" width="800" height="400"></canvas>
+
+    <div id="start-screen" class="screen">
+        <h1>Welcome to Honey Run!</h1>
+        <p>
+            Find and Collect 10 honey drops to complete the days' 
+            Honey Run. Be careful not to fly off the screen or hit 
+            any obstacles on your way!
+        </p>
+        <button id="start-btn">Start Game</button>
+        <button id="help-btn">?</button>
+    </div>
+
+    <div id="help" class="screen">
+        <div id="controls">
+            <h1>Controls:</h1>
+            <p>Jump: "SPACE"</p>
+            <p>Resart: "ENTER"</p>
+        </div>
+        <button id="back-to-menu">HOME</button>
+    </div>
+
+    <div id="instructions-screen" class="screen">
+        <p>↖️ Fill Up the Meter to Win!</p>
+        <p>Jump to start</p>
+    </div>
+
+    <div id="game-over-screen" class="screen">
+        <h1>Game Over!</h1>
+        <h2>Press ENTER to Restart</h2>
+        <button id="home">HOME</button>
+    </div>
+
+    <div id="win-screen" class="screen">
+        <h1>You Did It!</h1>
+        <p>Press Enter to Play Again</p>
+        <button id="back-to-start">HOME</button>
+    </div>
+
+    <script type="module" src="./scripts/modules/global.js"></script>
+    <script type="module" src="./scripts/modules/game.js"></script>
+    <script type="module" src="./scripts/modules/input.js"></script>
+</body>
+</html>
